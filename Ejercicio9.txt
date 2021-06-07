@@ -1,0 +1,21 @@
+Proceso Ejercicio_9
+	s<-0;
+	i<-0;
+	Mientras t1!=0 hacer 
+		Escribir "Ingresar temperatura 1";
+		leer t1;
+		Escribir "Ingresar temperatura 2";
+		leer t2;
+		si (t1<=15) y (t1>=5) Entonces
+			s<-s+1;
+		Sino
+			si (t2<=15) y (t2>=5) Entonces
+				s<-s+1;
+			FinSi
+		FinSi
+		i<-i+1;
+	FinMientras
+	p<-s/i;
+	Escribir "El promedio de temperaturas es ",p;
+	Escribir "de las ",i," cantidades";
+FinProceso
